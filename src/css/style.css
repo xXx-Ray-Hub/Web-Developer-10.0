@@ -1,0 +1,48 @@
+/* body {
+  background-color: #000;
+} */
+
+@import url('main.css');
+
+h1 {
+  color: red;
+  background-color: green;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  border: 2px solid #000;
+}
+
+span {
+  background-color: red;
+}
+
+p {
+  color: red;
+  background-color: red;
+  text-align: justify;
+  display: inline-block;
+}
+
+.text {
+  color: blue;
+}
+
+#text-1 {
+  color: green;
+}
+
+.header {
+  text-transform: uppercase;
+  color: green;
+}
+
+.block p {
+  color: brown;
+}
+
+a {
+  background-color: red;
+  width: 500px;
+  display: inline-block;
+}
