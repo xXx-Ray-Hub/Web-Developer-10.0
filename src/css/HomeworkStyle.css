@@ -12,6 +12,22 @@ body {
   padding: 30px 10%;
 }
 
+.header {
+  margin-top: 80px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.header span {
+  font-weight: 300;
+  display: block;
+}
+
+.header strong {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 .main  {
   text-align: center;
   margin-top: 80px;
@@ -76,18 +92,20 @@ body {
   margin: 60px auto;
 }
 
-.header {
-  margin-top: 80px;
-  font-size: 24px;
+.clients-header {
+  margin-top: 50px;
   text-align: center;
-}
-
-.header span {
-  font-weight: 300;
-  display: block;
-}
-
-.header strong {
-  font-weight: 900;
   text-transform: uppercase;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.clients {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.cli {
+  display: inline-block;
+  margin: 17px 13px;
 }
