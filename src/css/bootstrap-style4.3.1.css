@@ -1,0 +1,32 @@
+/* * {
+  outline: 1px solid red;
+} */
+
+.row {
+  margin-top: 120px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 24pt;
+  text-transform: uppercase;
+}
+
+.text {
+  margin-top: 35px;
+}
+
+.text1 {
+  margin-top: 48px;
+}
+
+.text4 {
+  margin-top: 42px;
+}
+
+p {
+  font-size: 12pt;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
