@@ -80,12 +80,11 @@ p {
   width: 100%;
   padding: 1.4rem 4.5rem 1.4rem 1.4rem;
   border: 2px solid #d0d0d0;
-  opacity: 0.5;
+  opacity: .5;
   color: #454545;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -ms-transitiosn: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 .feedback-form-input::-webkit-input-placeholder {
@@ -125,7 +124,6 @@ p {
   color: #ffffff;
   font-size: 1.8rem;
   -webkit-transition: 0.4s;
-  -o-transition: 0.4s;
   transition: 0.4s;
 }
 .feedback-form-btn:hover {
