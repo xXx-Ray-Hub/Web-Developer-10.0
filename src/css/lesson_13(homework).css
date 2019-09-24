@@ -35,6 +35,11 @@ body {
   padding: 30px;
 }
 
+span {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
 .form-control {
   height: 30px;
   background-color: #ebf4f4;
@@ -42,7 +47,6 @@ body {
   font-size: 12px;
   border-radius: 1px;
   margin-bottom: 15px;
-  margin-top: 15px;
 }
 
 .btn {
