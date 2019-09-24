@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/Bebas-Regular.eot');
+    src: url('../fonts/Bebas-Regular.eot?#iefix') format('embedded-opentype'),
+	        url('../fonts/Bebas-Regular.woff2') format('woff2'),
+	        url('../fonts/Bebas-Regular.woff') format('woff'),
+	        url('../fonts/Bebas-Regular.ttf') format('truetype'),
+	        url('../fonts/Bebas-Regular.svg#Bebas-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
+.one {
+	font-family: 'Open Sans', sans-serif;
+}
+.two {
+	font-family: 'Bebas', arial;
+}
+.three {
+	font-family: 'Lato', sans-serif;
+}
+.four {
+	font-family: 'Lobster', cursive;
+}
