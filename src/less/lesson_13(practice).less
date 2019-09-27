@@ -35,7 +35,7 @@
 @light: #fff;
 @border-input: #dddddd;
 
-// Basic setting
+
 html {
   font-size: 10px;
 }
@@ -44,9 +44,29 @@ body {
   .reg();
 }
 
-// Typography
 section {
   padding: 10rem 0px;
+}
+
+button, input, a {
+	&:focus {
+		outline: none;
+	}
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+// .phone {
+// 	text-align: center;
+// }
+
+.phone-link {
+  .bold();
+  color: @text;
+  font-weight: 900;
+  font-size: 2rem;
 }
 
 .button {
@@ -59,23 +79,11 @@ section {
 	.bold();
   text-transform: uppercase;
   border: none;
-}
-
-.phone-head {
-	padding-right: 0;
-	text-align: right;
-}
-
-.btn-head {
-	padding-left: 5rem;
-}
-
-.phone-link {
-  display: inline-block;
-  .bold();
-  color: @text;
-  font-weight: 900;
-  font-size: 2rem;
+	transition: all 0.2s;
+	&:hover {
+		cursor: pointer;
+		background-color: darken(@btn-color, 7%);
+	}
 }
 
 // main
@@ -118,6 +126,7 @@ section {
 			.bold();
 		}
 	&-form {
+		margin-top: 2rem;
 		position: relative;
 		padding: 4rem 5rem;
 		background-color: @light;
@@ -154,5 +163,41 @@ section {
 			margin-top: 1.5rem;
 			font-size: 1.2rem;
 		}
+	}
+}
+
+@media (max-width: 991px) {
+	.main {
+		background-position: right top;
+	}
+	.phone {
+		text-align: center;
+	}
+	.main-content {
+		margin-top: 3rem;
+	}
+	.main-title {
+		text-align: center;
+	}
+}
+
+@media (max-width: 767px) {
+	.main {
+		background-position: left top;
+	}
+	.header {
+		text-align: center;
+	}
+	.phone {
+		margin: 3rem 0px;
+	}
+	// .button {
+	// 	width: 75%;
+	// }
+}
+
+@media (max-width: 575px) {
+	.main h1 {
+		font-size: 3.5rem;
 	}
 }

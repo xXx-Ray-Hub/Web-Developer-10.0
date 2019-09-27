@@ -21,6 +21,20 @@ body {
 section {
   padding: 10rem 0px;
 }
+button:focus,
+input:focus,
+a:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.phone-link {
+  font-family: 'ProximaNova_bold', sans-serif;
+  color: #1a1820;
+  font-weight: 900;
+  font-size: 2rem;
+}
 .button {
   width: 100%;
   background-color: #fdb303;
@@ -31,20 +45,12 @@ section {
   font-family: 'ProximaNova_bold', sans-serif;
   text-transform: uppercase;
   border: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
-.phone-head {
-  padding-right: 0;
-  text-align: right;
-}
-.btn-head {
-  padding-left: 5rem;
-}
-.phone-link {
-  display: inline-block;
-  font-family: 'ProximaNova_bold', sans-serif;
-  color: #1a1820;
-  font-weight: 900;
-  font-size: 2rem;
+.button:hover {
+  cursor: pointer;
+  background-color: #db9a02;
 }
 .main {
   padding: 3rem 0 5rem;
@@ -86,6 +92,7 @@ section {
   font-family: 'ProximaNova_bold', sans-serif;
 }
 .main-form {
+  margin-top: 2rem;
   position: relative;
   padding: 4rem 5rem;
   background-color: #ffffff;
@@ -123,4 +130,34 @@ section {
   display: block;
   margin-top: 1.5rem;
   font-size: 1.2rem;
+}
+@media (max-width: 991px) {
+  .main {
+    background-position: right top;
+  }
+  .phone {
+    text-align: center;
+  }
+  .main-content {
+    margin-top: 3rem;
+  }
+  .main-title {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .main {
+    background-position: left top;
+  }
+  .header {
+    text-align: center;
+  }
+  .phone {
+    margin: 3rem 0px;
+  }
+}
+@media (max-width: 575px) {
+  .main h1 {
+    font-size: 3.5rem;
+  }
 }
