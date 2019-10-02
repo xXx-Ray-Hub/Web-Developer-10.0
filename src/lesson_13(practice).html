@@ -71,8 +71,100 @@
       </div>
     </main>
 
+    <section>
+      <div class="features">
+        <div class="container">
+
+          <h2 class="section-header">
+            Преимущества работы с нами
+          </h2>
+
+          <div class="features-slider">
+
+            <div class="features-block">
+              <div class="features-images">
+                <picture>
+                  <source srcset="img/coin.svg" type="image/">
+                  <img src="img/coin.png" alt="Платите по факту">
+                </picture>
+              </div>
+              <h3>Платите по факту</h3>
+              <p>Вы оплачиваете выполненные <br>работы только после их выполнения. <br>Никаких скрытых доплат и <br>промежуточных платежей.</p>
+            </div>
+
+            <div class="features-block">
+              <div class="features-images">
+                <picture>
+                  <source srcset="img/open.svg" type="image/">
+                  <img src="img/open.png" alt="Заключаем договор">
+                </picture>
+              </div>
+              <h3>Заключаем договор</h3>
+              <p>Перед началом работ заключаем <br>договор на юридическое лицо. <br>Вы можете быть уверены, что все <br>обязательства будут выполнены.</p>
+            </div>
+
+            <div class="features-block">
+              <div class="features-images">
+                <picture>
+                  <source srcset="img/clock.svg" type="image/">
+                  <img src="img/clock.png" alt="Точно в срок">
+                </picture>
+              </div>
+              <h3>Точно в срок</h3>
+              <p>Работаем строго по установленным <br>срокам, которые прописаны <br>в договоре. Если не успеваем, <br>Вы платите меньше</p>
+            </div>
+
+            <div class="features-block">
+              <div class="features-images">
+                <picture>
+                  <source srcset="img/piggy.svg" type="image/">
+                  <img src="img/piggy.png" alt="Экономите на материалах">
+                </picture>
+              </div>
+              <h3>Экономите на материалах</h3>
+              <p>Мы являемся структурным <br>подразделением компании <br>поставщика строительных смесей <br>gicema.ru и даём Вам самые <br>выгодные цены.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="slick\slick-1.8.1\slick\slick.css">
+    <link rel="stylesheet" href="slick\slick-1.8.1\slick\slick-theme.css">
+    <script src="slick\slick-1.8.1\slick\slick.min.js" charset="utf-8"></script>
+    <script>
+    $(document).ready(function(){
+      $('.features-slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 2,
+        prevArrow: '<button class="prev arrow"></button>',
+        nextArrow: '<button class="next arrow"></button>',
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 767,
+      settings: {
+        slidesToShow: 1,
+        prevArrow: '<button class="prev arrow"></button>',
+        nextArrow: '<button class="next arrow"></button>',
+        slidesToScroll: 1
+      }
+    }
+  ]
+      });
+    });
+    </script>
   </body>
 </html>
