@@ -302,10 +302,62 @@ a:hover {
   background: url(../img/feedback-bg.png) no-repeat center;
   background-size: cover;
 }
+.feedback-prev-btn {
+  left: -4rem;
+}
+.feedback-next-btn {
+  right: -4rem;
+}
+.feedback-text {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 2px solid #45b713;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  font-style: italic;
+  position: relative;
+}
+.feedback-text::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -2rem;
+  left: 4rem;
+  width: 2rem;
+  height: 2rem;
+  background-color: #ffffff;
+  border: 2px solid #45b713;
+  border-bottom: 0;
+  border-top-right-radius: 100px;
+}
 .feedback-slider {
+  padding: 5rem 6rem;
+  background-color: #ffffff;
   -webkit-box-shadow: 0 12px 18px rgba(0, 0, 0, 0.11);
           box-shadow: 0 12px 18px rgba(0, 0, 0, 0.11);
-  background-color: #ffffff;
+}
+.feedback-slider p {
+  font-size: 1.6rem;
+}
+.feedback-slider-btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 4rem;
+  height: 5rem;
+  background-color: #45b713;
+  border: none;
+}
+.feedback-slider .media {
+  margin-top: 3rem;
+}
+.feedback-slider .media strong {
+  font-size: 1.4rem;
+}
+.feedback-slider .media .mt-0 {
+  font-size: 1.4rem;
 }
 @media (max-width: 1199px) {
   .section-header_light {
