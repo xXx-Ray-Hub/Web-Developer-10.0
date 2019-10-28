@@ -60,13 +60,13 @@
             <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-0 col-md-8 offset-md-2 col-10 offset-1">
               <div class="main-form">
                 <h2 class="main-form-header">Для расчёта точной стоимости <br>закажите <strong>выезд замерщика</strong></h2>
-                <form action="#">
+                <form class="form" action="#">
                   <label for="#">Ваше имя</label>
-                  <input type="text" class="main-form-input">
+                  <input type="text" class="form-input">
                   <label for="#">Номер телефона</label>
-                  <input type="text" class="main-form-input">
-                  <button type="submit" class="button main-form-btn">оставьте заявку</button>
-                  <small>Приедем в день обращения</small>
+                  <input type="text" class="form-input">
+                  <button type="submit" class="button form-btn">оставьте заявку</button>
+                  <small>Приедем в день обращения*</small>
                 </form>
               </div>
             </div>
@@ -141,14 +141,14 @@
           <h4 class="popup-header">Заинтересовало?</h4>
           <p>Оставьте контактные данные <br>для связи</p>
           <div class="main-form popup-form">
-            <form action="#">
+            <form class="form" action="#">
               <label for="#">Ваше имя</label>
-              <input type="text" class="main-form-input">
+              <input type="text" class="form-input">
               <label for="#">Номер телефона</label>
-              <input type="text" class="main-form-input">
+              <input type="text" class="form-input">
               <label for="#">Соoбщение</label>
-              <textarea rows="5" class="main-form-input"></textarea>
-              <button type="submit" class="button main-form-btn">оставьте заявку</button>
+              <textarea rows="5" class="form-input"></textarea>
+              <button type="submit" class="button form-btn">оставьте заявку</button>
             </form>
           </div>
         </div>
@@ -235,8 +235,8 @@
 
           <div class="feedback-slider_item">
             <div class="row">
-              <div class="col-md-6">
-                <div class="fotorama" data-nav="thumbs">
+              <div class="col-xl-6 col-lg-12">
+                <div class="fotorama" data-width="100%" data-nav="thumbs">
                   <img src="img/slider.jpg" alt="">
                   <img src="img/slider.jpg" alt="">
                   <img src="img/slider.jpg" alt="">
@@ -245,7 +245,7 @@
                   <img src="img/slider.jpg" alt="">
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xl-6 col-lg-12">
                 <p>Объект: г.Москва, Нахимовский проспект д.10</p>
                 <p>Площадь: <strong>357 м2</strong></p>
                 <p>Выполнен за: <strong>10 дней</strong></p>
@@ -270,8 +270,8 @@
 
           <div class="feedback-slider_item">
             <div class="row">
-              <div class="col-md-6">
-                <div class="fotorama" data-nav="thumbs">
+              <div class="col-xl-6 col-lg-12">
+                <div class="fotorama" data-width="100%" data-nav="thumbs">
                   <img src="img/slider.jpg" alt="">
                   <img src="img/slider.jpg" alt="">
                   <img src="img/slider.jpg" alt="">
@@ -280,7 +280,7 @@
                   <img src="img/slider.jpg" alt="">
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xl-6 col-lg-12">
                 <p>Объект: г.Москва, Нахимовский проспект д.10</p>
                 <p>Площадь: <strong>357 м2</strong></p>
                 <p>Выполнен за: <strong>10 дней</strong></p>
@@ -305,8 +305,8 @@
 
           <div class="feedback-slider_item">
             <div class="row">
-              <div class="col-md-6">
-                <div class="fotorama" data-nav="thumbs">
+              <div class="col-xl-6 col-lg-12">
+                <div class="fotorama" data-width="100%" data-nav="thumbs">
                   <img src="img/slider.jpg" alt="">
                   <img src="img/slider.jpg" alt="">
                   <img src="img/slider.jpg" alt="">
@@ -315,7 +315,7 @@
                   <img src="img/slider.jpg" alt="">
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-xl-6 col-lg-12">
                 <p>Объект: г.Москва, Нахимовский проспект д.10</p>
                 <p>Площадь: <strong>357 м2</strong></p>
                 <p>Выполнен за: <strong>10 дней</strong></p>
@@ -340,7 +340,33 @@
 
         </div>
 
+        <div class="row">
+          <div class="col-xl-8 offset-xl-2 col-lg-12 offset-lg-0">
+
+            <div class="feedback-form">
+              <h3>Хотите так же? Оставьте Ваши контактные данные</h3>
+              <form class="form" action="#">
+                <div class="row">
+                  <div class="col-md-6">
+                    <label for="#">Ваше имя</label>
+                    <input type="text" class="form-input">
+                  </div>
+                  <div class="col-md-6">
+                    <label for="#">Номер телефона</label>
+                    <input type="text" class="form-input">
+                  </div>
+                </div>
+                <button type="submit" class="button form-btn feedback-form-btn">оставьте заявку</button>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
       </div>
+      <figure>
+          <img class="hand" src="img/hand.png" alt="" width="100%">
+      </figure>
     </section>
 
     <!-- Optional JavaScript -->
