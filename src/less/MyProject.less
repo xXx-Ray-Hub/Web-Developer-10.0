@@ -355,8 +355,8 @@ a:hover {
 
 .feedback {
   position: relative;
-  background: url(../img/feedback-bg.png) no-repeat center;
-  background-size: cover;
+  // background: #fff url(../img/feedback-bg.png) no-repeat center;
+  // background-size: 65rem;
   &-prev-btn {
     left: -4rem;
   }
@@ -445,6 +445,78 @@ a:hover {
   }
 }
 
+.scheme{
+  .section-header {
+    margin-bottom: 0rem;
+  }
+  &-block{
+    margin-top: 6.5rem;
+    min-height: 30rem;
+    h3{
+      .bold();
+      margin-top: 3.8rem;
+      font-size: 2.2rem;
+      font-weight: 700;
+      line-height: 18px;
+    }
+    p{
+      .reg();
+      margin-top: 2.7rem;
+      font-size: 1.7rem;
+      font-weight: 400;
+      line-height: 18px;
+    }
+  }
+  background: #fff url(../img/scheme-bg.png) bottom -10rem right no-repeat;
+  background-size: 65rem;
+}
+
+.all-inclusive{
+  .section-header{
+    margin-bottom: 8rem;
+    h2{
+      color: @icons-color;
+    }
+  }
+  background: @bg-light;
+  .media{
+    min-height: 8rem;
+    &-left{
+      .circle-border{
+        display: inline-block;
+        width: 5rem;
+        height: 5rem;
+        border:2px solid @icons-color;
+        border-radius: 50%;
+        padding: 0.3rem;
+        margin: 1.5rem;
+        text-align: center;
+        line-height: 4rem;
+        color: @light;
+        .bold();
+        font-size: 2rem;
+        .circle{
+          display: inline-block;
+          background-color: @icons-color;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+        }
+      }
+    }
+    &-body{
+      padding-top: 3rem;
+      h4{
+        .bold();
+        font-size: 1.6rem;
+      }
+      p{
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
+
 @media (max-width: 1199px) {
 	.section-header_light {
 		margin-bottom: 0;
@@ -468,6 +540,9 @@ a:hover {
     .fotorama {
       margin-bottom: 4rem;
     }
+  }
+  .scheme{
+    background: #fff url(../img/scheme-bg.png) bottom -13.5rem right -35rem no-repeat;
   }
 }
 
@@ -520,10 +595,17 @@ a:hover {
       right: 0;
     }
   }
+  .scheme{
+    background: none;
+    text-align: center;
+    &-block{
+      min-height: 10rem;
+    }
+  }
 }
 
 @media (max-width: 575px) {
 	.main h1 {
-		font-size: 3.5rem;
-	}
+		font-size: 2.8rem;
+  }
 }
