@@ -1,0 +1,86 @@
+body {
+  background: rgb(133, 133, 133);
+  margin: 0;
+}
+.container {
+  padding: 5px;
+  min-height: 200vh;
+}
+.contacts-box {
+  box-sizing: border-box;
+  padding: 70px;
+  position: absolute;
+  left: 470px;
+  z-index: 1;
+  background:#c60b0b;
+  width: 350px;
+  height: 400px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.contacts-band {
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  height: 92px;
+  padding-left: 460px;
+  padding-top: 15px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-top: 0;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+a {
+  color: rgb(255, 255, 255);
+}
+.img {
+  position: absolute;
+}
+.item {
+  margin-left: 80px;
+  margin-top: 0;
+  display: inline-block;
+}
+.item2 {
+  margin-left: 160px;
+  margin-top: 0;
+  padding-bottom: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.item3 {
+  margin-left: 160px;
+  margin-top: 0;
+  display: inline-block;
+}
+.item p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 400;
+}
+.item2 p {
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #666666;
+}
+.item3 p {
+  text-align: center;
+  margin-bottom: 5px;
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+.item3 span p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
