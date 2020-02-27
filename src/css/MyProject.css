@@ -29,6 +29,15 @@ body {
 section {
   padding: 10rem 0px;
 }
+button:focus,
+input:focus,
+a:focus,
+textarea:focus {
+  outline: none;
+}
+a:hover {
+  text-decoration: none;
+}
 .section-header {
   margin-bottom: 13rem;
   text-align: center;
@@ -46,15 +55,6 @@ section {
 .section-header_light {
   color: #ffffff;
 }
-button:focus,
-input:focus,
-a:focus,
-textarea:focus {
-  outline: none;
-}
-a:hover {
-  text-decoration: none;
-}
 .phone-link {
   font-family: 'ProximaNova_bold', sans-serif;
   color: #1a1820;
@@ -62,7 +62,6 @@ a:hover {
   font-size: 2rem;
 }
 .button {
-  width: 100%;
   background-color: #fdb303;
   color: #ffffff;
   padding: 1rem 2rem;
@@ -105,6 +104,10 @@ a:hover {
   padding: 3rem 0 5rem;
   background: #ffffff url(../img/main-bg.jpg) center center no-repeat;
   background-size: cover;
+}
+.main .button {
+  width: 100%;
+  padding: 1.5rem 2.5rem;
 }
 .main-content {
   margin-top: 10rem;
@@ -208,6 +211,7 @@ a:hover {
   background: #45b713 url(../img/prices-bg.jpg) center;
 }
 .price-btn-header {
+  width: 100%;
   max-width: 35rem;
   height: 60px;
   font-size: 1.6rem;
@@ -526,6 +530,9 @@ a:hover {
   margin-bottom: 8rem;
   margin-top: 2rem;
 }
+.materials .section-header p {
+  font-size: 1.9rem;
+}
 .materials img {
   display: block;
   margin: 0 auto;
@@ -534,16 +541,58 @@ a:hover {
 .materials .knauf {
   margin-bottom: 3rem;
 }
-.materials-offer {
-  text-align: center;
-  margin-top: 8rem;
-}
 .materials-link {
+  margin: 0 auto;
+  max-width: 9rem;
+  display: block;
   color: #45b713;
+  font-size: 1.6rem;
   border-bottom: 1px dotted #45b713;
 }
 .materials-link:hover {
   color: #34890e;
+}
+.materials-offer {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 8rem;
+}
+.materials-offer_link {
+  color: #45b713;
+  border-bottom: 1px dotted #45b713;
+}
+.materials-offer_link:hover {
+  color: #34890e;
+}
+.tour {
+  background: #ffffff url(../img/tour.jpg) center no-repeat;
+  background-size: cover;
+}
+.tour-subtitle {
+  font-size: 2.4rem;
+}
+.upsell {
+  background: #286b0a;
+}
+.upsell .section-header {
+  margin-bottom: 1rem;
+}
+.upsell .section-header p {
+  font-size: 1.9rem;
+}
+.upsell-block {
+  margin-top: 5rem;
+  min-height: 30rem;
+  text-align: center;
+  color: #ffffff;
+}
+.upsell-block img {
+  display: inline-block;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.upsell-block p {
+  font-size: 2rem;
 }
 @media (max-width: 1199px) {
   .section-header_light {
@@ -590,6 +639,10 @@ a:hover {
   .main-title {
     text-align: center;
   }
+  .tour {
+    background: none;
+    background-color: #f5f5f5;
+  }
 }
 @media (max-width: 768px) {
   .main {
@@ -618,15 +671,24 @@ a:hover {
   .scheme-block {
     min-height: 10rem;
   }
-  .problems-list {
-    min-height: auto;
+  .problems .section-header {
+    margin-bottom: 5rem;
   }
   .problems-girl {
     display: none;
+  }
+  .upsell-block img {
+    width: 85%;
   }
 }
 @media (max-width: 575px) {
   .main h1 {
     font-size: 2.8rem;
+  }
+  .upsell-block img {
+    max-width: 33rem;
+  }
+  .problems-list {
+    min-height: auto;
   }
 }
