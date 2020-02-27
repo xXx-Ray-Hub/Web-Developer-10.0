@@ -461,7 +461,7 @@ a:hover {
 .problems-girl {
   position: absolute;
   left: 50%;
-  bottom: -5rem;
+  bottom: 0;
   width: 32.5rem;
   margin-left: -20rem;
 }
@@ -512,11 +512,38 @@ a:hover {
   background-size: 70%;
 }
 .problems-list_good {
-  border-color: #358015;
+  border-color: #45b713;
 }
 .problems-list_good ul li:before {
   background: url(../img/checked.png) center no-repeat;
   background-size: 70%;
+}
+.materials {
+  background: #ffffff url(../img/material-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.materials .section-header {
+  margin-bottom: 8rem;
+  margin-top: 2rem;
+}
+.materials img {
+  display: block;
+  margin: 0 auto;
+  min-height: 177px;
+}
+.materials .knauf {
+  margin-bottom: 3rem;
+}
+.materials-offer {
+  text-align: center;
+  margin-top: 8rem;
+}
+.materials-link {
+  color: #45b713;
+  border-bottom: 1px dotted #45b713;
+}
+.materials-link:hover {
+  color: #34890e;
 }
 @media (max-width: 1199px) {
   .section-header_light {
