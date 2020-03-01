@@ -77,7 +77,8 @@ a:hover {
   cursor: pointer;
   background-color: #db9a02;
 }
-.form-input {
+.form-input,
+.form-textarea {
   margin: 2rem 0;
   display: block;
   width: 100%;
@@ -214,7 +215,7 @@ a:hover {
   width: 100%;
   max-width: 35rem;
   height: 60px;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 .price-block {
   padding: 2rem 2.5rem;
@@ -257,6 +258,7 @@ a:hover {
   vertical-align: middle;
 }
 .price-btn {
+  font-size: 1.8rem;
   padding: 1.5rem 4rem;
   max-width: 20rem;
 }
@@ -381,6 +383,7 @@ a:hover {
           transform: translate(-50%, 7px);
 }
 .feedback-form-btn {
+  font-size: 1.6rem;
   max-width: 25rem;
   margin: auto;
   margin-top: 1rem;
@@ -571,6 +574,9 @@ a:hover {
 .tour-subtitle {
   font-size: 2.4rem;
 }
+.tour-form-btn {
+  font-size: 1.4rem;
+}
 .upsell {
   background: #286b0a;
 }
@@ -593,6 +599,56 @@ a:hover {
 }
 .upsell-block p {
   font-size: 2rem;
+}
+.upsell-block-btn {
+  font-size: 1.6rem;
+  padding: 1rem 4.5rem;
+}
+.contacts {
+  background: #ffffff url(../img/mechanism-bg.jpg) center no-repeat;
+  background-size: cover;
+}
+.contacts h2 {
+  font-size: 3.6rem;
+  font-family: 'ProximaNova_bold', sans-serif;
+}
+.contacts p {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.contacts-link {
+  display: inline-block;
+  color: #1a1820;
+  border-bottom: 1px dotted #1a1820;
+}
+.contacts-link:hover {
+  color: #020203;
+}
+.contacts-form h2 {
+  font-size: 1.8rem;
+  font-family: 'ProximaNova_reg', sans-serif;
+  margin-bottom: 3rem;
+}
+.contacts-form-btn {
+  font-size: 1.4rem;
+}
+footer {
+  padding: 4rem 0;
+}
+footer .footer-contacts {
+  text-align: center;
+  padding-top: 0.2rem;
+}
+footer .footer-contacts strong {
+  font-size: 2rem;
+}
+footer .footer-contacts p {
+  font-size: 1.6rem;
+  margin: 0;
+}
+footer .footer-dev-logo {
+  text-align: right;
 }
 @media (max-width: 1199px) {
   .section-header_light {
@@ -621,7 +677,7 @@ a:hover {
     min-height: 50rem;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .feedback figure .hand {
     left: 0;
   }
@@ -644,7 +700,7 @@ a:hover {
     background-color: #f5f5f5;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .main {
     background-position: left top;
   }
@@ -679,6 +735,22 @@ a:hover {
   }
   .upsell-block img {
     width: 85%;
+  }
+  .contacts {
+    background: none;
+    background-color: #f5f5f5;
+  }
+  .contacts-form {
+    margin-top: 3rem;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .footer-contacts {
+    margin: 4rem 0;
+  }
+  footer .footer-dev-logo {
+    text-align: center;
   }
 }
 @media (max-width: 575px) {
